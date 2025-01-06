@@ -1,6 +1,7 @@
 import re
 # n.I.O
-m=r"[a-zA-Z][a-zA-Z0-9_\-]{7,}"
+m=r"^[a-zA-Z][a-zA-Z0-9_\\-]{7,}$"
+# m=r"[a-zA-Z][a-zA-Z0-9_\-]{7,}"
 
 while True:
     try:
